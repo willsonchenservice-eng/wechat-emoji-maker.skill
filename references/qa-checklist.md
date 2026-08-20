@@ -27,6 +27,7 @@
 ## Batch-level checklist
 
 - [ ] Every requested keyword has one independently saved asset.
+- [ ] Candidate, user-confirmed, generated and accepted counts reconcile; no requested keyword is missing or silently replaced.
 - [ ] Single-character and two-character compositions are intentionally varied.
 - [ ] No one generic composition has been copied across the entire batch.
 - [ ] The same IP does not drift in size, palette, facial structure or fixed accessories.
