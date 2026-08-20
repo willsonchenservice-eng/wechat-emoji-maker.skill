@@ -1,10 +1,19 @@
 # 微信表情包制作验收清单
 
+## Keyword research gate
+
+- [ ] Every keyword has a traceable current meme/image source: platform, link, retrieval date and original reference image or screenshot.
+- [ ] The keyword text is copied from the original source and has user confirmation; it is not a model-invented paraphrase.
+- [ ] The source's defining visual anchor is written down: gesture, facial close-up, crop, composition or prop.
+- [ ] The candidate can be understood visually without relying only on enlarged text; weak or non-visualizable candidates are removed instead of used to fill the target count.
+- [ ] Similar candidates are deduplicated and the batch is not padded with several versions of the same reaction.
+
 ## Per-asset checklist
 
 - [ ] Correct IP identity: face, silhouette, colors, costume and fixed accessories.
 - [ ] Correct character count: one IP when the brief says single; both only when interaction adds meaning.
 - [ ] Keyword is visible through action, facial expression, prop or composition.
+- [ ] The original meme reference is actually reflected in the defining pose, expression, crop, composition or prop; the image is not a generic interpretation of the phrase.
 - [ ] Text is exact, complete and legible; a no-text asset exists only when the brief explicitly requires it.
 - [ ] No accidental extra words, logos, watermark or random speech bubbles.
 - [ ] Text is drawn into the same composition: no blank caption area, reserved text box, white title card or post-generation overlay.
@@ -24,6 +33,7 @@
 - [ ] No default no-text or placeholder-text batch has been introduced.
 - [ ] Older attempts are preserved or clearly superseded; no silent overwrite.
 - [ ] A manifest records keyword, character count, text rule, reference roles, version and QA result.
+- [ ] The manifest records source evidence, visual anchor and user confirmation for every keyword.
 
 ## Extension-material checklist
 

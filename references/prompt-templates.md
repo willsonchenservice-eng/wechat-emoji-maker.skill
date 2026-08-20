@@ -2,6 +2,20 @@
 
 只在需要时读取本文件。所有提示词都要把参考图角色写清楚，并把不变量和禁止项分开。
 
+## 0. Keyword research brief
+
+在生成单张表情前，先把这段信息补齐；它不是让模型自由解释关键词的许可，而是把原梗证据带入生成。
+
+```text
+Keyword (verbatim): “<原梗原文>”
+Source: <平台 / 原图或视频链接 / 检索日期>
+Meme reference role: emotion, pose, composition and crop reference only
+Visual anchor to preserve: <最关键的动作、局部表情、景别、构图或道具>
+IP translation: <单人或双人；每个角色的动作和情绪>
+Do not invent from the keyword alone; do not copy the original person's identity, words, logo, watermark or background.
+User confirmed: yes
+```
+
 ## 1. Identity anchor
 
 ```text
@@ -29,6 +43,7 @@ Use a clean light background and no scene props.
 ```text
 Create one finished independent square Chinese WeChat sticker in the confirmed integrated-text die-cut style.
 Use the user's IP image as the identity reference; use any supplied finished sticker only as a style reference.
+Use the supplied original meme image as the emotion/pose/composition reference; do not interpret the keyword from scratch.
 Style: thick irregular white die-cut outline on a pale gray outside background, bold rounded hand-drawn Chinese display lettering, black main type with red emotional emphasis.
 Create the exact keyword “<KEYWORD>”.
 Only <CHARACTER> is present.
@@ -43,6 +58,7 @@ Avoid: blank caption area, rectangular title card, social-media cover layout, po
 ```text
 Create one finished independent square Chinese WeChat sticker in the confirmed integrated-text die-cut style.
 Use the user's IP images as identity references; use any supplied finished sticker only as a style reference.
+Use the supplied original meme image as the emotion/pose/composition reference; do not interpret the keyword from scratch.
 Style: thick irregular white die-cut outline on a pale gray outside background, bold rounded hand-drawn Chinese display lettering, black main type with red emotional emphasis.
 Create the exact keyword “<KEYWORD>”.
 Both characters are present only because the meaning requires interaction.
@@ -70,6 +86,7 @@ If copy is not finalized, confirm it before final typography instead of using a 
 ```text
 Create one finished independent square Chinese WeChat sticker.
 Use the user's IP image as the identity reference; use the supplied finished stickers as style references only.
+Use the supplied original meme image as the emotion/pose/composition reference; preserve its defining visual anchor and crop without copying the original person's identity.
 Style: thick irregular white die-cut outline on a pale gray outside background, bold rounded hand-drawn Chinese display lettering, black main type with red emotional emphasis, dense expressive props and reaction marks.
 The exact caption must be generated inside the image in the same pass and must be part of the sticker composition, not a separate text box.
 Text (verbatim): "<KEYWORD>"
