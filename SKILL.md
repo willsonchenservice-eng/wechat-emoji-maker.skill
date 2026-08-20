@@ -1,9 +1,9 @@
 ---
-name: wechat-sticker-pack
+name: wechat-sticker-maker
 description: Use when creating or revising WeChat sticker packs from IP reference images, including character exploration, three-view turnarounds, keyword-based expression stickers, reward or tipping art, covers, headers, and related sticker assets.
 ---
 
-# WeChat Sticker Pack
+# 微信表情包制作
 
 ## Overview
 

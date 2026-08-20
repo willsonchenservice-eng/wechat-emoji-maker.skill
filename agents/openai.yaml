@@ -1,4 +1,4 @@
 interface:
-  display_name: "WeChat Sticker Pack"
-  short_description: "Create integrated-text IP sticker packs and extension assets"
-  default_prompt: "Use $wechat-sticker-pack to create a confirmed die-cut Chinese WeChat sticker style from IP references and keywords, with model-generated text inside each sticker plus covers, headers, icons, reward art, and a platform-check manifest."
+  display_name: "微信表情包制作"
+  short_description: "制作带文字的微信表情包和延展物料"
+  default_prompt: "Use $wechat-sticker-maker to create integrated-text Chinese WeChat stickers from IP references and keywords, plus covers, headers, icons, reward art, and a platform-check manifest."

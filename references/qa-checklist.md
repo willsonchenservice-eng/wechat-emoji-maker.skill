@@ -1,4 +1,4 @@
-# WeChat Sticker Pack QA Checklist
+# 微信表情包制作验收清单
 
 ## Per-asset checklist
 

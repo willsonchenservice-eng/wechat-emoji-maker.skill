@@ -1,4 +1,4 @@
-# WeChat Sticker Pack Prompt Templates
+# 微信表情包制作提示词模板
 
 只在需要时读取本文件。所有提示词都要把参考图角色写清楚，并把不变量和禁止项分开。
 
